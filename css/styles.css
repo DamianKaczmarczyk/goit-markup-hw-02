@@ -35,7 +35,9 @@ body {
 .logo-color {
     color:rgba(0, 0, 0, 1);
 }
-
+.button {
+    cursor: pointer;
+}
 
 .navigation-list-link,
 .navigation-list-mail,
@@ -165,7 +167,7 @@ border: 0;
 /* ---------- END-MAIN --------------*/
 
 /* ---------- PORTFOLIO --------------*/
-.prtfolio-item {
+.portfolio-item {
         font-weight: 700;
         font-size: 18px;
         line-height: 2; 
