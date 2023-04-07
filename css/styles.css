@@ -18,7 +18,7 @@
   }
 body {
     font-family:var(--main-font);
-    font-family:
+    font-family: "Roboto";
 }
 .slogan {
     background-color:var(--hero-item-background-color);
