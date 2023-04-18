@@ -27,7 +27,6 @@ body {
     font-family:var(--main-font);
     font-family: 'Roboto';
     font-size: 14px;
-    font-weight: 700px;
     line-height: 1.714;
     letter-spacing: 0.03em;
 }
@@ -178,7 +177,21 @@ border: 0;
     color:var(--focus-color);
     background-color: var(--main-color);
 }
-
+.nav-link {
+    
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+    color: var(--secondary-color);
+    background-color: var(--button-background-color);
+    border: 0;
+    }
+    .nav-link:hover,
+    .nav-link:focus {
+        color:var(--main-color);
+    }
+    
 /* ---------- END-MAIN --------------*/
 
 /* ---------- PORTFOLIO --------------*/
