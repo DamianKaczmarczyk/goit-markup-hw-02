@@ -9,10 +9,17 @@
     --hero-item-background-color:#2F303A;
 }
 
-* {
+  * {
     margin: 0;
   }
+  ul {
 
+    list-style-type: none;
+    
+    }
+  a {
+    text-decoration: none;
+  }
   button {
     cursor: pointer;
   }
@@ -23,6 +30,9 @@ body {
     font-weight: 700px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+}
+a {
+    text-decoration: none;
 }
 .slogan {
     background-color:var(--hero-item-background-color);
@@ -126,7 +136,6 @@ color:var(--secondary-color);
 .hero-model-btn {
     
 font-family: 'Roboto';
-font-style: normal;
 font-size: 16px;
 line-height: 30px;
         background-color: var(--button-background-color);
@@ -141,10 +150,23 @@ line-height: 30px;
             color:var(--focus-color);
             background-color: var(--main-color);
         }
+ .slogan-button {
+    
+            font-family: 'Roboto';
+            font-size: 16px;
+            line-height: 30px;
+                    background-color: var(--main-color);
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                    border-radius: 4px;
+                    line-height: 30px; 
+                    letter-spacing: 0.06em;
+                    font-size: 16px;
+                    color:var(--focus-color);
+                    }
 .nav-button-card {
     
 font-family: 'Roboto';
-font-style: normal;
+font-size: 16px;
 font-weight: 500;
 line-height: 1.625;
 color: var(--secondary-color);
@@ -167,15 +189,15 @@ border: 0;
         color: var(--secondary-color);
 }
 .portfolio-class-description {
+        font-size: 16px;
         line-height: 1.875;
-        color:var(--navigation-color)
+        color:var(--navigation-color);
 }
 /* ---------- END-PORTFOLIO --------------*/
 
 /* ---------- FOOTER --------------*/
 .footer {
-    font-style: normal;
-    background:var(--hero-item-background-color)
+    background:var(--hero-item-background-color);
 
 }
 .footer-mail,
@@ -190,6 +212,7 @@ border: 0;
 .footer-address-item {
 font-family: 'Roboto';
 color:var(--focus-color);
+font-style: normal;
 }
 .footer-logo-color {
     color:rgba(255, 255, 255, 1);
